@@ -1,0 +1,159 @@
+
+:root {
+  --slate:#434455;
+  --navy-blue: #2e2f42;
+  --iris: #4d5ae5;
+  --bgd-white: #FFFFFF;
+  --cloud: #F4F4FD;
+  --cornflower: #E7E9FC;
+
+}
+body {
+  background-color: var(--bgd-white);
+  color: var(--slate);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.02em;
+}
+.list {
+  list-style: none;  
+}
+/* Logo */
+.logo {
+  color: var(--navy-blue);
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.logo-web {
+  color: var(--iris);
+}
+
+/* site nav */
+
+.site-nav .link {
+  color: var(--navy-blue);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  
+}
+.site-nav .link:hover {
+  color: var(--iris);
+}
+.site-nav .link:focus {
+  color: var(--slate);
+}
+.cont-list .link {
+  color: var(--navy-blue);
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.cont-list .link:hover {
+  color: var(--iris);
+}
+.cont-list .link:focus {
+color: var(--slate);
+}
+
+/* site hero */
+
+.hero {
+  background-color: var(--navy-blue)
+}
+.hero-title {
+  font-weight: 600;
+  font-size: 56px;
+  text-align: center;
+  line-height: 1.07;
+
+}
+.button {
+  color: var(--bgd-white);
+  background-color: var(--iris);
+  border: 0;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.18;    
+  letter-spacing: 0.04em;
+}
+
+
+.hero-title {
+    color: var(--bgd-white);
+}
+
+/* section */
+
+.section-title {
+  color: var(--navy-blue);
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.11px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/* features */
+
+.feature-list .title,
+.team-list .title,
+.pf-list .title {
+  color: var(--navy-blue);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.feature-list .text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Work */
+
+
+/* Team */
+.section.team {
+  background-color: var(--cloud);
+}
+
+/* footer */
+
+.footer {
+  background-color: var(--navy-blue);
+}
+.logo-studio {
+  color: var(--cloud);
+}
+.text-footer {
+color: var(--cornflower);
+}
+
+.btn-pf {
+  color: var(--iris);
+  background-color: var(--cloud);
+  border: 0;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
+.btn-pf:hover {
+  color: var(--bgd-white);
+  background-color: var(--iris);
+}
+.btn-pf:focus {
+  color: var(--bgd-white);
+  background-color: var(--iris);
+}
